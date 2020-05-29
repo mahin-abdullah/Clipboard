@@ -1,5 +1,27 @@
 // Imported Fonts //
 
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
 // Fonts //
 
+$font: "Bai Jamjuree", sans-serif;
+
+// Font Weights //
+
+$font-primary: 600;
+$font-secondary: 400;
+
 // Font Sizes //
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $font-primary;
+}
+
+p {
+  font-weight: $font-secondary;
+}
