@@ -1,0 +1,29 @@
+.intro {
+  margin: 4em 0 0 0;
+
+  .main__intro h2 {
+    font-size: 28px;
+    text-align: center;
+    margin: 0 0 1em 0;
+  }
+
+  .main__intro p {
+    text-align: center;
+    margin: 0 0 5em 0;
+  }
+}
+
+main {
+  .main__content {
+    margin: 3.5em 0 0 0;
+  }
+
+  .main__content h2 {
+    text-align: center;
+  }
+
+  .main__content p {
+    text-align: center;
+    margin: 0 0 3em 0;
+  }
+}
