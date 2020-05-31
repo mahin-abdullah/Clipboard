@@ -6,7 +6,22 @@
     text-align: center;
   }
 
+  .title,
+  .bottom--title {
+    font-size: 30px;
+  }
+
   .content {
     margin: 0 0 4em;
+  }
+
+  .bottom--title {
+    margin: 2em 0 0 0;
+    text-align: center;
+  }
+
+  .bottom--content {
+    text-align: center;
+    margin: 1em 0 4em 0;
   }
 }
