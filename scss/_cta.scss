@@ -1,0 +1,39 @@
+.cta {
+  text-align: center;
+
+  .cta--title {
+    font-size: 30px;
+  }
+
+  .cta--content {
+    margin: 0 0 3em 0;
+  }
+
+  .main__cta {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    .ios,
+    .android {
+      padding: 0.83em;
+      border-radius: 50px;
+      border: none;
+      color: #fff;
+      font-size: 19px;
+      font-family: $font;
+      font-weight: $font-primary;
+      filter: drop-shadow(0px 5px 3px #cfd9de);
+    }
+
+    .ios {
+      margin: 0.5em 0 1.2em 0;
+      background: $primary-color;
+    }
+
+    .android {
+      margin: 0 0 6.5em 0;
+      background: $secondary-color;
+    }
+  }
+}
