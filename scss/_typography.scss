@@ -23,5 +23,8 @@ h6 {
 }
 
 p {
+  color: $font-color;
   font-weight: $font-secondary;
+  margin: 0;
+  line-height: 1.65;
 }

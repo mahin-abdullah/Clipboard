@@ -1,5 +1,49 @@
 .wrapper {
   background-image: url(/dist/images/bg-header-mobile.png);
   background-repeat: no-repeat;
-  max-width: 100%;
+}
+
+.hero {
+  .logo {
+    text-align: center;
+  }
+
+  .main--logo {
+    margin: 6em 0 1.5em 0;
+  }
+
+  .hero__intro {
+    text-align: center;
+  }
+
+  .hero__intro p {
+    margin: 0 0 2em 0;
+  }
+
+  .hero__cta {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    .ios,
+    .android {
+      padding: 0.83em;
+      border-radius: 50px;
+      border: none;
+      color: #fff;
+      font-size: 19px;
+      font-family: $font;
+      font-weight: $font-primary;
+    }
+
+    .ios {
+      margin: 0.5em 0 1.2em 0;
+      background: $primary-color;
+    }
+
+    .android {
+      margin: 0 0 1.5em 0;
+      background: $secondary-color;
+    }
+  }
 }
