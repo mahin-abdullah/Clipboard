@@ -63,3 +63,27 @@
     background-size: cover;
   }
 }
+
+@media (min-width: 992px) {
+  .hero .hero__cta {
+    display: block;
+    text-align: center;
+  }
+
+  .hero .hero__cta .ios {
+    margin: 0.5em 2em 1.2em 0;
+  }
+
+  .hero .hero__cta .ios,
+  .hero .hero__cta .android {
+    padding: 1em 2em;
+  }
+
+  .hero .hero__intro h1 {
+    font-size: 44px;
+  }
+
+  .hero .hero__intro p {
+    font-size: 25px;
+  }
+}
