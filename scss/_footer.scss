@@ -6,7 +6,7 @@ footer {
     text-align: center;
 
     .footer--logo {
-      width: 30%;
+      width: 20%;
       margin: 0 0 4em 0;
     }
   }
@@ -24,12 +24,12 @@ footer {
     .footer__link {
       text-decoration: none;
       color: #808080;
-      transition: opacity 150ms ease-in-out;
+      transition: color 150ms ease-in-out;
     }
 
     .footer__link:hover,
     .footer__link:focus {
-      opacity: 75%;
+      color: $primary-color;
     }
   }
 
@@ -40,6 +40,11 @@ footer {
     .fa-lg {
       font-size: 1.7em;
       color: #808080;
+      transition: color 250ms ease-out;
+    }
+
+    .fa-lg:hover {
+      color: $primary-color;
     }
 
     .svg-inline--fa {
@@ -49,5 +54,9 @@ footer {
 
   .dev {
     text-align: center;
+
+    .dev--info:hover {
+      color: $primary-color;
+    }
   }
 }
