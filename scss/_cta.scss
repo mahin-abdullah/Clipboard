@@ -44,3 +44,27 @@
     }
   }
 }
+
+@media (min-width: 992px) {
+  .cta .main__cta {
+    display: block;
+    text-align: center;
+  }
+
+  .cta .main__cta .ios {
+    margin: 0.5em 2em 1.2em 0;
+  }
+
+  .cta .main__cta .ios,
+  .cta .main__cta .android {
+    padding: 1em 2em;
+  }
+
+  .cta .cta--title {
+    font-size: 38px;
+  }
+
+  .cta .cta--content {
+    font-size: 22px;
+  }
+}
