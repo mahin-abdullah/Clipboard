@@ -27,4 +27,10 @@ img {
     display: flex;
     justify-content: space-between;
   }
+
+  .row--align {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
 }

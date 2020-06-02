@@ -11,3 +11,9 @@
     margin: 3.5em 0 0 0;
   }
 }
+
+@media (min-width: 992px) {
+  .col.services__icons {
+    margin: 0 1em;
+  }
+}
