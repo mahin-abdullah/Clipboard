@@ -33,7 +33,7 @@ footer {
     }
   }
 
-  .social__icons.col {
+  .social__icons.footer--col {
     text-align: center;
     margin: 3em 0;
 
@@ -58,5 +58,30 @@ footer {
     .dev--info:hover {
       color: $primary-color;
     }
+  }
+}
+
+@media (min-width: 992px) {
+  footer .footer__list {
+    text-align: start;
+  }
+  footer .footer__item {
+    margin: 0;
+  }
+
+  footer .footer__img {
+    width: 30%;
+  }
+
+  footer .footer__item {
+    margin: 0 0 1.5em 0;
+  }
+
+  .footer--col {
+    width: 20%;
+  }
+
+  .dev {
+    margin: 2em 0 0 0;
   }
 }

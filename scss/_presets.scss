@@ -22,13 +22,17 @@ img {
   position: relative;
 }
 
-.row {
-  display: flex;
-  justify-content: space-between;
-}
+@media (min-width: 992px) {
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.row--align {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  .row--align {
+    align-items: baseline;
+  }
+
+  .row--end {
+    align-items: flex-start;
+  }
 }
